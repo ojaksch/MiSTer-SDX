@@ -21,7 +21,8 @@ The files (7z'd):
     <tr><td>SDX_hdd-FAT.img</td><td>A 256MB bootable SDFS(*) hard disk including CONFIG.SYS and driver for FATFS(*). A 128MB FAT partition is available for data exchange, set to drive 3</td></tr>
     <tr><td>SDX_hdd-FAT-VBXE.img</td><td>As before plus driver for VBXE(*).</td></tr>
     <tr><td>SDX_hdd-empty.img</td><td>An empty 16MB hard disk</td></tr>
-    <tr><td>SDX_megatoolkit.atr</td><td>The SpartaDOS SDFS(*) Tooldisk, almost all tools and drivers unpacked for direct access</td></tr>
+    <tr><td>SDX_megatoolkit.atr</td><td>The SpartaDOS SDFS(*) Tooldisk floppy, almost all tools and drivers unpacked for direct access</td></tr>
+    <tr><td>SDX_empty.atr</td><td>A big empty SpartaDOS SDFS(*) floppy disk</td></tr>
     <tr><td>boot3.rom</td><td>The PBI ROM file for the MiSTer FPGA and its Atari800 Core</td></tr>
 </table>
 
@@ -34,7 +35,13 @@ All files and drivers are unpatched, unmodified and taken from the original Spar
 ---
 
 ## Changelog
-- 2026-01: Initial commmit
+- 2026-01-24: Added INIDOS, DISSDX, SD6502, VBFIX/VBFIX816, VPRINT, FSEL, UNIXTIME, PCLINK, CON, CON64, RC_VBXE, VBXE, VBXEFXS, CAD, CPMFS/USER, INDUS, XEPSET  
+omitted: drivers/turbobrd  
+DOSKEY added to config.sys  
+config.sys loads drivers from CAR: or "the booted drive"  
+Added an empty 1.4MB SDFS formatted floppy disk  
+Reorganizised disk's layout and adjusted the paths in config.sys
+- 2026-01-13: Initial commmit
 
 ---
 
