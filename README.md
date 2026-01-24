@@ -1,5 +1,7 @@
 ## These are tools for the famous [SpartaDOS X](https://sdx.atari8.info/index.php), intended for use with the wonderful [MiSTer FPGA](https://github.com/MiSTer-devel/Wiki_MiSTer/wiki) and the magnificent [Atari800 Core](https://github.com/MiSTer-devel/Atari800_MiSTer)
 
+And, of course, you can use these files, especially *SDX_megatoolkit.atr*, to setup your CF-IDE or whatever on a real Atari with U1MB/Incognito etc!
+
 Have a read of the [documentation](https://github.com/MiSTer-devel/Atari800_MiSTer/tree/VBXE), especially about the boot3.rom file and [about handling the PBI BIOS](https://github.com/MiSTer-devel/Atari800_MiSTer/tree/VBXE?tab=readme-ov-file#pbi-bios-atari800).  
 
 Settings to be made in the Core:
