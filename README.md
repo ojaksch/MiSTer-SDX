@@ -37,6 +37,7 @@ All files and drivers are unpatched, unmodified and taken from the original Spar
 ---
 
 ## Changelog
+- 2026-02-17: Added ECP, EDIR, EMUDEV, MNT, MUXTIME, S2I and S2S (see [SpartaDOS X Homepage](https://sdx.atari8.info/index.php?show=en_addons))
 - 2026-02-15: Added RWTEST, RWCRC and missing DOSKEY
 - 2026-01-24: Added INIDOS, DISSDX, SD6502, VBFIX/VBFIX816, VPRINT, FSEL, UNIXTIME, PCLINK, CON, CON64, RC_VBXE, VBXE, VBXEFXS, CAD, CPMFS/USER, INDUS, XEPSET  
 omitted: drivers/turbobrd  
