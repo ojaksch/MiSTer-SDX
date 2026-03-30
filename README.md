@@ -18,6 +18,7 @@ The files (7z'd):
 <table>
     <tr><td>CONFIG.SYS</td><td>An example config.sys including driver for VBXE(*)</td></tr>
     <tr><td>SDX450_ult320.rom</td><td>The original SpartaDOS X ROM file</td></tr>
+    <tr><td>SDX450_maxflash8.rom</td><td>MaxFlash 1MB (8 Mbit) SDX ROM with almost all drivers</td></tr>
     <tr><td>SDX_hdd.img</td><td>A 16MB bootable SDFS(*) hard disk including CONFIG.SYS</td></tr>
     <tr><td>SDX_hdd-VBXE.img</td><td>As before plus driver for VBXE(*).</td></tr>
     <tr><td>SDX_hdd-FAT.img</td><td>A 256MB bootable SDFS(*) hard disk including CONFIG.SYS and driver for FATFS(*). A 128MB FAT partition is available for data exchange, set to drive 3</td></tr>
@@ -36,7 +37,14 @@ All files and drivers are unpatched, unmodified and taken from the original Spar
 
 ---
 
+The MaxFlash 1MB (8 Mbit) is a SDX ROM with almost all drivers, tools and man pages. Drivers/tools for Ramdisk, VBXE, doskey and FATFS are autoloaded. uflash.xex also included. This cartridge is meant to be an all-in-one solution for quick access to SDX w/o fiddling with PBI, floppy and hard disk images. Also usable with a 1088XEL with U1MB, VBXE and a suitable MaxFlash cartridge.
+
+The only downside is that there is no RTC available. As woj already stated earlier due to address conflicts with MaxFlash cartridges and RTC, so this is removed from config.sys
+
+---
+
 ## Changelog
+- 2026-03-30: Added SDX450_maxflash8 cartridge
 - 2026-02-17: Added ECP, EDIR, EMUDEV, MNT, MUXTIME, S2I and S2S (see [SpartaDOS X Homepage](https://sdx.atari8.info/index.php?show=en_addons))
 - 2026-02-15: Added RWTEST, RWCRC and missing DOSKEY
 - 2026-01-24: Added INIDOS, DISSDX, SD6502, VBFIX/VBFIX816, VPRINT, FSEL, UNIXTIME, PCLINK, CON, CON64, RC_VBXE, VBXE, VBXEFXS, CAD, CPMFS/USER, INDUS, XEPSET  
