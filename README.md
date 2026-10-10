@@ -11,14 +11,14 @@ Settings to be made in the Core:
 - PBI BIOS: enabled
 - PBI Splash: whatever you prefer
 - PBI boot drive: APT
-- Load Cart SDX450_ult320.rom
+- Load Cart SDX451_ult320.rom
 - Have fun!
 
 The files (7z'd):
 <table>
     <tr><td>CONFIG.SYS</td><td>An example config.sys including driver for VBXE(*)</td></tr>
-    <tr><td>SDX450_ult320.rom</td><td>The original SpartaDOS X ROM file</td></tr>
-    <tr><td>SDX450_maxflash8.rom</td><td>MaxFlash 1MB (8 Mbit) SDX ROM with almost all drivers</td></tr>
+    <tr><td>SDX451_ult320.rom</td><td>The original SpartaDOS X ROM file</td></tr>
+    <tr><td>SDX451_maxflash8.rom</td><td>MaxFlash 1MB (8 Mbit) SDX ROM with almost all drivers</td></tr>
     <tr><td>SDX_hdd.img</td><td>A 16MB bootable SDFS(*) hard disk including CONFIG.SYS</td></tr>
     <tr><td>SDX_hdd-VBXE.img</td><td>As before plus driver for VBXE(*).</td></tr>
     <tr><td>SDX_hdd-FAT.img</td><td>A 256MB bootable SDFS(*) hard disk including CONFIG.SYS and driver for FATFS(*). A 128MB FAT partition is available for data exchange, set to drive 3</td></tr>
@@ -44,6 +44,7 @@ The only downside is that there is no RTC available. As woj already stated earli
 ---
 
 ## Changelog
+- 2026-10-10: Added SDX451_maxflash8 cartridge, removed SDX450_maxflash8, disks updated to v4.51
 - 2026-03-30: Added SDX450_maxflash8 cartridge
 - 2026-02-17: Added ECP, EDIR, EMUDEV, MNT, MUXTIME, S2I and S2S (see [SpartaDOS X Homepage](https://sdx.atari8.info/index.php?show=en_addons))
 - 2026-02-15: Added RWTEST, RWCRC and missing DOSKEY
