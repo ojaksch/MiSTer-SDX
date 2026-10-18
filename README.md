@@ -44,6 +44,7 @@ The only downside is that there is no RTC available. As woj already stated earli
 ---
 
 ## Changelog
+- 2026-10-18: Updated VBXE drivers to v1.27, added FUJI and FUJING to SDX>COM, added FujiNet tools
 - 2026-10-10: Added SDX451_maxflash8 cartridge, removed SDX450_maxflash8, disks updated to v4.51
 - 2026-03-30: Added SDX450_maxflash8 cartridge
 - 2026-02-17: Added ECP, EDIR, EMUDEV, MNT, MUXTIME, S2I and S2S (see [SpartaDOS X Homepage](https://sdx.atari8.info/index.php?show=en_addons))
